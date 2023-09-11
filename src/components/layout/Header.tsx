@@ -4,6 +4,7 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 import Button from "../Button";
 
 function Header() {
+  let hola;
   return (
     <header className="w-full relative h-20 flex items-center justify-center">
       <div className="flex fixed justify-between text-white text-sm w-[65%] h-14 py-2 px-4 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#FFFFFF]/[0.20] z-10">
@@ -18,7 +19,7 @@ function Header() {
           <li className="cursor-pointer hover:text-slate-300">Contac</li>
         </ul>
         <div className="flex items-center text-lg gap-1 border rounded-md py-2 px-5 hover:text-black hover:bg-slate-50 cursor-pointer transition-all ease-in duration-200">
-          <Button>CVV</Button>
+          <button className="">CVV</button>
             <HiOutlineDocumentDownload />
         </div>
       </div>
