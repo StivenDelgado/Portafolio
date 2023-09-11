@@ -9,7 +9,7 @@ export async function POST(request: NextRequest) {
     const {name, email, linkedin, description} = await request.json();
     
     const data = await resend.emails.send({
-        from: 'Acme <onboarding@resend.dev>',
+        from: 'Contact portafolio <onboarding@resend.dev>',
         to: [`${email}`],
         subject: 'Correo del portafolio',
         text: '',

@@ -28,7 +28,7 @@ function Form() {
 
   const sendEmail = async () => {
     console.log(data)
-    const result = await axios.post("http://localhost:3000/api/send", data)
+    const result = await axios.post("/api/send", data)
     return result.data;
   }
 
