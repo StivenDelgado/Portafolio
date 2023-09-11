@@ -13,7 +13,7 @@ interface cardProp{
   
 function Project(props: cardProp) {
   return (
-    <div className='flex flex-col items-center h-[350px] w-[350px] bg-gray-400 text-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100'>
+    <div className='flex flex-col items-center h-[350px] w-[350px] bg-gray-400 text-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.20]'>
       <h3 className='p-4'>{props.children}</h3>
       <Image 
       src={props.img}

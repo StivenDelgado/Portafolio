@@ -8,7 +8,7 @@ function Projects() {
     <div className='text-white h-full w-full mt-52 flex justify-center'>
       <div className='flex flex-col items-center w-[65%] gap-20'>
           <h3 id='projects' className='text-6xl'>
-            Projects
+            Projects<span className='text-[#D0BFFF]'>.</span>
           </h3>
           <div className='flex flex-wrap justify-around items-center w-full gap-8' >
             <Project  img={nextCrud}>Name Project</Project>
