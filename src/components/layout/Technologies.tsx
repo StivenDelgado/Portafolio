@@ -23,8 +23,8 @@ function Technologies() {
   return (
     <div className="flex justify-center items-center  text-white h-full w-full">
       <div className="w-[65%] flex flex-col h-[90%] items-center mt-52">
-        <h2 className="text-6xl">Technologies<span className='text-[#D0BFFF]'>.</span></h2>
-        <div className="relative w-full h-[90%] mt-32 flex justify-between gap-7 flex-wrap px-52 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.32]">
+        <h2 id="technologies" className="text-6xl">Technologies<span className='text-[#D0BFFF]'>.</span></h2>
+        <div className="relative py-10 w-full h-[90%] mt-32 flex justify-between gap-7 flex-wrap px-52 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.32]">
           <Image src={js} alt="" height="150" width="150" />
           <Image src={node} alt="" height="150" width="150" />
           <Image src={react} alt="" height="150" width="150" />

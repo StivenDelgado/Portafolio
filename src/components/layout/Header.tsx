@@ -15,10 +15,10 @@ function Header() {
           <span>StivenDev</span>
         </div>
         <ul className="flex justify-around items-center w-[300px]">
-          <li className="cursor-pointer hover:text-slate-300">About</li>
-          <li className="cursor-pointer hover:text-slate-300">Technologies</li>
+          <li className="cursor-pointer hover:text-slate-300"><a href="#about">About</a></li>
+          <li className="cursor-pointer hover:text-slate-300"><a href="#technologies">Technologies</a></li>
           <li className="cursor-pointer hover:text-slate-300"><a href="#projects">Projects</a></li>
-          <li className="cursor-pointer hover:text-slate-300">Contac</li>
+          <li className="cursor-pointer hover:text-slate-300"><a href="#contac">Contac</a></li>
         </ul>
         <div className="flex items-center text-lg gap-1 border rounded-md py-2 px-5 hover:text-black hover:bg-slate-50 cursor-pointer transition-all ease-in duration-200">
           <a href="../../../public/StivenDelgado.pdf" download="StivenDelgadoCVV.pdf"><button>Descargar PDF</button></a>

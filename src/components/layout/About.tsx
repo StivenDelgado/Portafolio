@@ -1,17 +1,30 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import dora from "../../../public/doranegra.jpg";
 import Image from "next/image";
+import AOS from "aos";
 
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 650, once: true });
+  }, []);
   return (
     <section className="text-white w-full flex flex-col justify-center items-center h-[90%]">
-
-      <h1 className="text-8xl mt-52 mb-32">
-        Fullstack <span className="text-[#D0BFFF]">Developer</span>...|
+      <h1 id="about" className="text-8xl mt-52 mb-32 flex gap-5">
+        Fullstack{" "}
+        <span id="effect" className="text-[#D0BFFF]">
+          Developer...|
+        </span>
       </h1>
       <div className="w-[65%] h-[90%] flex justify-center items-center">
-        <article className="w-[70%] h-[90%] flex bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.20]">
+        <article
+          data-aos="fade-down-right"
+          data-aos-delay="500"
+          data-aos-offset="200px"
+          className="w-[70%] h-[90%] flex bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.20]"
+        >
           <div className="w-[50%] flex flex-col gap-3 justify-center items-center">
             <Image
               src={dora}
@@ -39,22 +52,22 @@ function About() {
               <a
                 href="https://www.linkedin.com/in/stiven-delgado-b8b2b0272/"
                 className="hover:text-[#D0BFFF] hover:text-4xl transition-all ease-in duration-200 pt-2"
-               target="_blank" 
+                target="_blank"
               >
                 <AiFillLinkedin />
               </a>
               <a
                 href="https://github.com/StivenDelgado"
                 className="hover:text-[#D0BFFF] hover:text-4xl transition-all ease-in duration-200 pt-2"
-               target="_blank" 
+                target="_blank"
               >
                 <AiFillGithub />
               </a>
               <a
                 href="delgadostiven@gmail.com"
                 className="hover:text-[#D0BFFF] hover:text-4xl transition-all ease-in duration-200 pt-2"
-               target="_blank"                
-               >
+                target="_blank"
+              >
                 <AiFillMail />
               </a>
             </div>
