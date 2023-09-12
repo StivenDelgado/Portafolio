@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
 
    scroll-behavior: smooth;
+   font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -15,11 +16,10 @@ body{
 }
 #effect{
     display: block;
-    font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 12ch;
-    
+    width: 9.6ch;
+    font-family: 'Poppins', sans-serif;
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
     overflow:hidden;
     }

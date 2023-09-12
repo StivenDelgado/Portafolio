@@ -5,24 +5,30 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import dora from "../../../public/doranegra.jpg";
 import Image from "next/image";
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
   useEffect(() => {
-    AOS.init({ duration: 650, once: true });
+    AOS.init()
   }, []);
   return (
     <section className="text-white w-full flex flex-col justify-center items-center h-[90%]">
       <h1 id="about" className="text-8xl mt-52 mb-32 flex gap-5">
         Fullstack{" "}
         <span id="effect" className="text-[#D0BFFF]">
-          Developer...|
+          Developer...
         </span>
       </h1>
       <div className="w-[65%] h-[90%] flex justify-center items-center">
         <article
-          data-aos="fade-down-right"
-          data-aos-delay="500"
-          data-aos-offset="200px"
+          data-aos="fade-up"
+          data-aos-offset="10"
+          data-aos-delay="20"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
           className="w-[70%] h-[90%] flex bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#D0BFFF]/[0.20]"
         >
           <div className="w-[50%] flex flex-col gap-3 justify-center items-center">
