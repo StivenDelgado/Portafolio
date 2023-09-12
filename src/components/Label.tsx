@@ -6,7 +6,7 @@ interface labelProps{
 
 function Label(props : labelProps) {
   return (
-    <label htmlFor={props.htmlfor} className='text-white flex flex-col'>
+    <label htmlFor={props.htmlfor} className='text-white w-[60%]'>
         {props.children}
     </label>
   )

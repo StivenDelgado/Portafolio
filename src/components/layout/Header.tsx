@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { FaRegFileCode } from "react-icons/fa";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
@@ -19,7 +21,8 @@ function Header() {
           <li className="cursor-pointer hover:text-slate-300">Contac</li>
         </ul>
         <div className="flex items-center text-lg gap-1 border rounded-md py-2 px-5 hover:text-black hover:bg-slate-50 cursor-pointer transition-all ease-in duration-200">
-          <button className="">CVV</button>
+          <a href="../../../public/StivenDelgado.pdf" download="StivenDelgadoCVV.pdf"><button>Descargar PDF</button></a>
+          
             <HiOutlineDocumentDownload />
         </div>
       </div>
