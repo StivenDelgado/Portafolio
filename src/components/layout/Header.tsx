@@ -16,7 +16,7 @@ function Header() {
           <li className="cursor-pointer hover:text-slate-300"><a href="#about">About</a></li>
           <li className="cursor-pointer hover:text-slate-300"><a href="#technologies">Technologies</a></li>
           <li className="cursor-pointer hover:text-slate-300"><a href="#projects">Projects</a></li>
-          <li className="cursor-pointer hover:text-slate-300"><a href="#contac">Contac</a></li>
+          <li className="cursor-pointer hover:text-slate-300"><a href="#contac">Contact</a></li>
         </ul>
         <div className="flex items-center text-lg gap-1 border rounded-md py-2 px-5 hover:text-black hover:bg-slate-50 cursor-pointer transition-all ease-in duration-200">
           <a href="https://publuu.com/flip-book/412292/931995/page/1?cover" target="_blank">CV</a>
