@@ -3,7 +3,6 @@
 import React from "react";
 import { FaRegFileCode } from "react-icons/fa";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
-import Button from "../Button";
 
 function Header() {
   return (
@@ -20,7 +19,7 @@ function Header() {
           <li className="cursor-pointer hover:text-slate-300"><a href="#contac">Contac</a></li>
         </ul>
         <div className="flex items-center text-lg gap-1 border rounded-md py-2 px-5 hover:text-black hover:bg-slate-50 cursor-pointer transition-all ease-in duration-200">
-          <a href="../../../public/docs/StivenDelgado.pdf" download><button>Descargar PDF</button></a>
+          <a href="https://publuu.com/flip-book/412292/931995/page/1?cover" target="_blank">CV</a>
           
             <HiOutlineDocumentDownload />
         </div>

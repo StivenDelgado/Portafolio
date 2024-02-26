@@ -14,7 +14,7 @@ function About() {
   return (
     <section className="text-white w-full flex flex-col justify-center items-center h-[90%]">
       <h1 id="about" className="text-8xl mt-52 mb-32 flex gap-5">
-        Fullstack{" "}
+        Backend{" "}
         <span id="effect" className="text-[#D0BFFF]">
           Developer...
         </span>

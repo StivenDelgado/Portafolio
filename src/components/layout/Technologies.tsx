@@ -19,6 +19,9 @@ import git from "../../../public/git-seeklogo.com.svg";
 import mysql from "../../../public/mysql-seeklogo.com.svg";
 import npm from "../../../public/npm-node-package-manager.svg";
 import php from "../../../public/php-seeklogo.com.svg";
+import nest from "../../../public/NestJS.svg.png";
+import spring from "../../../public/spring-svgrepo-com.svg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -55,47 +58,57 @@ function Technologies() {
           <Image src={java} alt="" height="150" width="150" />
           <Image src={ts} alt="" height="150" width="150" />
           <Image src={py} alt="" height="150" width="150" />
-          <Image src={dj} alt="" height="150" width="150" />
+          <Image src={spring} alt="" height="150" width="150" />
           <Image src={html} alt="" height="150" width="150" />
           <Image src={twd} alt="" height="150" width="150" />
           <Image src={css} alt="" height="120" width="120" />
           <Image src={db} alt="" height="150" width="150" className="" />
         </div>
+        <div
+        >
         <Image
           src={github}
           alt=""
           height="150"
           width="150"
-          className="absolute -bottom-[700px] left-[250px] -z-10"
+          className="floating absolute -bottom-[500px] left-[330px] -z-10"
         />
         <Image
           src={git}
           alt=""
           height="150"
           width="150"
-          className="absolute -bottom-[700px] left-[600px] -z-10"
+          className="floating absolute -bottom-[500px] left-[1330px] -z-10"
         />
         <Image
           src={mysql}
           alt=""
           height="150"
           width="150"
-          className="absolute -bottom-[700px] left-[350px] -z-10"
+          className="floating absolute -bottom-[730px] left-[330px] -z-10"
         />
         <Image
           src={npm}
           alt=""
-          height="150"
+          height="150" 
           width="150"
-          className="absolute -bottom-[700px] left-[750px] -z-10"
+          className="floating absolute -bottom-[900px] left-[1330px] -z-10"
         />
         <Image
           src={php}
           alt=""
           height="150"
           width="150"
-          className="absolute -bottom-[700px] left-[250px] -z-10"
+          className="floating absolute -bottom-[950px] left-[330px] -z-10"
         />
+        <Image
+          src={nest}
+          alt=""
+          height="150"
+          width="150"
+          className="floating absolute -bottom-[710px] left-[1330px] -z-10"
+        />
+        </div>
       </div>
     </div>
   );

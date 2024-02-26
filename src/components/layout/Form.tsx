@@ -5,6 +5,7 @@ import Input from "../Input";
 import Label from "../Label";
 import axios from 'axios';
 import Button from "../Button";
+import toast from "react-hot-toast";
 
 function Form() {
   
@@ -29,6 +30,16 @@ function Form() {
   const sendEmail = async () => {
     console.log(data)
     const result = await axios.post("/api/send", data)
+    console.log(result.data.status)
+    if (result.data.status === 200) {
+      toast.error("Enviado")
+      toast.custom(() => (
+        <div>
+          <h1>Custom Toast</h1>
+          <p>This is a custom toast!</p>
+        </div>
+      ));
+    }
     return result.data;
   }
 
