@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
-import dora from "../../../public/doranegra.jpg";
+import user from "../../../public/user.jpg";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,7 +33,7 @@ function About() {
         >
           <div className="w-[50%] flex flex-col gap-3 justify-center items-center">
             <Image
-              src={dora}
+              src={user}
               alt=""
               className="w-[55%] h-[60%] rounded-full"
               objectFit="cover"
